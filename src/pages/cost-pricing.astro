@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Расходы и цены">
+  <div class="bg-white rounded-lg shadow p-6">
+    <h1 class="text-2xl font-bold mb-6">Калькуляция расходов и цен</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="border rounded-lg p-4">
+        <h2 class="text-lg font-semibold mb-4">Структура себестоимости</h2>
+        <ul class="space-y-2">
+          <li class="flex justify-between">
+            <span>Материалы</span>
+            <span class="font-medium">₽1,200</span>
+          </li>
+          <li class="flex justify-between">
+            <span>Оплата труда</span>
+            <span class="font-medium">₽800</span>
+          </li>
+          <li class="flex justify-between">
+            <span>Накладные расходы</span>
+            <span class="font-medium">₽400</span>
+          </li>
+        </ul>
+      </div>
+      <div class="border rounded-lg p-4">
+        <h2 class="text-lg font-semibold mb-4">Итоговая цена</h2>
+        <div class="text-2xl font-bold text-blue-600">₽3,000</div>
+      </div>
+    </div>
+  </div>
+</Layout>

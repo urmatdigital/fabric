@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import KanbanBoard from '../components/KanbanBoard';
+---
+
+<Layout title="Канбан-доска">
+  <div class="bg-white rounded-lg shadow p-6">
+    <h1 class="text-2xl font-bold mb-6">Канбан-доска</h1>
+    <KanbanBoard client:load />
+  </div>
+</Layout>

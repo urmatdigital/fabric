@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductionPanel from '../components/ProductionPanel';
+---
+
+<Layout title="Управление производством">
+  <div class="max-w-6xl mx-auto">
+    <h1 class="text-3xl font-bold mb-8">Панель управления производством</h1>
+    <ProductionPanel client:load />
+  </div>
+</Layout>

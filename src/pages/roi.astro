@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="ROI и амортизация">
+  <div class="bg-white rounded-lg shadow p-6">
+    <h1 class="text-2xl font-bold mb-6">ROI и амортизация активов</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="border rounded-lg p-4">
+        <h2 class="text-lg font-semibold mb-4">ROI по оборудованию</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="text-gray-600">Швейные машины</h3>
+            <p class="text-xl font-bold text-green-600">32%</p>
+          </div>
+          <div>
+            <h3 class="text-gray-600">Раскройное оборудование</h3>
+            <p class="text-xl font-bold text-green-600">28%</p>
+          </div>
+        </div>
+      </div>
+      <div class="border rounded-lg p-4">
+        <h2 class="text-lg font-semibold mb-4">Амортизация</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="text-gray-600">Годовая ставка</h3>
+            <p class="text-xl">10%</p>
+          </div>
+          <div>
+            <h3 class="text-gray-600">Остаточная стоимость</h3>
+            <p class="text-xl">₽450,000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
